@@ -1,4 +1,5 @@
-class Api::V1::RegistrationsController < V1::ApiController
+class Api::V1::RegistrationsController < Api::V1::ApiController
+
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   def create
