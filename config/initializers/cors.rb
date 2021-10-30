@@ -29,7 +29,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
 
   allow do
-    origins "http://highsoaringministries.herokuapp.com"
+    origins "http://www.highsoaringministries.herokuapp.com"
     resource "*",
     headers: :any, methods: [:get, :post, :put, :patch, :delete, :options, :head],
     credentials: true
