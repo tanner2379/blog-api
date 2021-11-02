@@ -2,13 +2,7 @@ require 'rack/cors'
 
 Rails.application.config.hosts << ".highsoaringministries.herokuapp.com"
 Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com"
-Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com/api/v1/sessions"
-Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com/api/v1/posts"
-Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com/api/v1/getposts"
-Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com/api/v1/registrations"
-Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com/api/v1/logout"
-Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com/api/v1/logged_in"
-Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com/api/v1/searchpost"
+Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com/api/v1"
 Rails.application.config.hosts << ".highsoaringministries.com"
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
