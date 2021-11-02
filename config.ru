@@ -5,7 +5,7 @@ require 'rack/cors'
 
 use Rack::Cors do
   allow do
-    origins '*'
+    origins 'https://www.highsoaringministries.com'
     resource "*",
     headers: :any, methods: [:get, :post, :put, :patch, :delete, :options, :head],
     credentials: true
