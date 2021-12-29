@@ -15,7 +15,7 @@ class Api::V1::ApiController < ApplicationController
 
   def require_user
     if !user_signed_in?
-      puts(session[:user_id])
+      puts("session: " + session)
       
       render json: {
         status: 401
