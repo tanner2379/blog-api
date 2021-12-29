@@ -1,5 +1,6 @@
 require 'rack/cors'
 
+Rails.application.config.hosts << "localhost:3000"
 Rails.application.config.hosts << ".highsoaringministries-api.herokuapp.com"
 Rails.application.config.hosts << ".highsoaringministries.com"
 Rails.application.config.hosts << ".highsoaringministries.herokuapp.com"

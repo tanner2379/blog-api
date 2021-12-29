@@ -18,6 +18,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'rack-cors', require: 'rack/cors'
 gem 'active_model_serializers'
 gem 'kaminari'
+gem 'irb'
+gem 'rdoc'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
