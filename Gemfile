@@ -20,7 +20,7 @@ gem 'active_model_serializers'
 gem 'kaminari'
 gem 'irb'
 gem 'rdoc'
-gem 'rails_same_site_cookie'
+gem 'secure_headers'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
